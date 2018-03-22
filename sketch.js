@@ -34,8 +34,8 @@ function setup() {
 
   button = createButton('toggle');
   button.mousePressed(toggleSong);
-  song.disconnect();
-  reverb.process(song, reverbTime, reverbDecay);
+ // song.disconnect();
+ // reverb.process(song, reverbTime, reverbDecay);
   song.play();
   fft = new p5.FFT(0.9, 128);
 
